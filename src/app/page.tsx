@@ -27,8 +27,8 @@ export default function Home() {
           <Image
             src="/Echo-Barrier/images/Echo Assist Icon.svg"
             alt="Echo Assist"
-            width={220}
-            height={80}
+            width={140}
+            height={50}
             style={{ objectFit: 'contain' }}
             priority
           />
