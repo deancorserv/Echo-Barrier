@@ -29,7 +29,7 @@ export default function Home() {
             alt="Echo Barrier"
             width={220}
             height={80}
-            style={{ objectFit: 'contain' }}
+            style={{ objectFit: 'contain', mixBlendMode: 'multiply' }}
             priority
           />
         </div>
