@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import EchoAssistAgent from '@/components/EchoAssistAgent'
 
 export default function Home() {
@@ -23,42 +24,14 @@ export default function Home() {
             marginBottom: '12px',
           }}
         >
-          {/* Echo Barrier wordmark / brand accent */}
-          <div
-            style={{
-              width: '8px',
-              height: '40px',
-              background: '#FF7026',
-              borderRadius: '4px',
-            }}
+          <Image
+            src="/Echo-Barrier/images/logo.jpg"
+            alt="Echo Barrier"
+            width={220}
+            height={80}
+            style={{ objectFit: 'contain' }}
+            priority
           />
-          <div>
-            <p
-              style={{
-                margin: 0,
-                fontSize: '12px',
-                fontWeight: 700,
-                letterSpacing: '0.12em',
-                textTransform: 'uppercase',
-                color: '#FF7026',
-                fontFamily: 'Roboto, sans-serif',
-              }}
-            >
-              Echo Barrier
-            </p>
-            <h1
-              style={{
-                margin: 0,
-                fontSize: '28px',
-                fontWeight: 700,
-                color: '#000000',
-                fontFamily: 'Roboto, sans-serif',
-                lineHeight: 1.2,
-              }}
-            >
-              Echo Assist
-            </h1>
-          </div>
         </div>
         <p
           style={{
